@@ -66,6 +66,8 @@ for adding deleting checking and checkout also for intial product grid
 App.jsx 
 ![alt text](image-1.png)
 ![alt text](image-2.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 this is heart of all project this uses lazy loading so the data can be load also all the backend services are called through it
 ![alt text](image-3.png)
 
