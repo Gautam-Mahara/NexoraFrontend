@@ -39,32 +39,50 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+!!!!!!!!!!! This is frontend for the project!!!!!!!!!!!!!!!!!!!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+setup
+Git clone https://github.com/Gautam-Mahara/NexoraFrontend.git
+cd ./NexoraFrontend 
+npm install axios
+    lucide-react react
+    react-dom react-icons
+    web-vitals
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
 
-### Analyzing the Bundle Size
+You are ready to go
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Project overview
 
-### Making a Progressive Web App
+Api.js
+this file handle all the api calling 
+this have 4 main File
+![alt text](image.png)
+for adding deleting checking and checkout also for intial product grid
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+App.jsx 
+![alt text](image-1.png)
+![alt text](image-2.png)
+this is heart of all project this uses lazy loading so the data can be load also all the backend services are called through it
+![alt text](image-3.png)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+CartView.jsx
+For cart details this maps prices and objects 
+![alt text](image-4.png)
 
-### Deployment
+ProductCard.jsx
+for product card
+on loading app.jsx sends backend request to /product and retrives data in productCard we map the data
+![alt text](image-5.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+ProductGrid.jsx
+for grid 
+![alt text](image-1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author 
+Gautam Singh Mahara
